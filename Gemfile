@@ -3,6 +3,8 @@ gem "dotenv"
 gem "sinatra"
 gem "sinatra-contrib"
 gem 'rspec'
+gem 'imdb'
+gem 'pry'
 
 group :development do
   gem 'sqlite3'
