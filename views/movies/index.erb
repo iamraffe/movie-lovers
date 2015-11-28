@@ -1,0 +1,11 @@
+<section class="container movie-index">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <%=  "<div class='col-md-12'><h1 class='text-center'>Which movie was made in #{@movies[@rand].send(@param)} </h1></div>" %>
+      <% @movies.each do |movie| %>
+        <article class="movie col-xs-4" style="background-image: url(<%= movie.poster %>);">
+        </article>
+      <% end %>
+    </div>
+  </div>
+</section>

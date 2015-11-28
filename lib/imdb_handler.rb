@@ -1,7 +1,8 @@
 require 'imdb'
 
 class IMDBHandler
-  def search(query, limit, key = 'movies')
-    Imdb::Search.new(query).send(key).take(limit)
+  def search(query, key = 'movies')
+    imdb_response = Array.new
+    Imdb::Search.new(query).send(key)
   end
 end

@@ -1,0 +1,26 @@
+/*
+
+GENERAL STYLES
+
+*/
+
+body{
+  font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size:20px;
+  color:#404040;
+  padding-top: 125px;
+}
+p{
+  font-size: 18px;
+  line-height: 35px;
+  font-weight: 300;
+}
+
+a{
+  color:#404040;
+
+  &:hover, &:focus{
+    color:#0085a1;
+  }
+}
+

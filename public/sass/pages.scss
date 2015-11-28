@@ -1,0 +1,65 @@
+/*
+
+INDEX
+
+ */
+header.intro-header{
+  min-height: 350px;
+  margin-bottom: 50px;
+
+  .site-heading{
+    padding: 50px;
+
+    h1{
+      font-family: Lato, sans-serif;
+      font-weight: 200;
+      text-align: center;
+      font-size: 150px;
+
+      @media(max-width: 768px){
+        font-size: 30px;
+      }
+
+      strong{
+        font-weight: bold;
+      }
+    }
+    h2.subheading{
+      font-family: Lato, sans-serif;
+      font-weight: 200;
+      text-align: center;
+    }
+  }
+}
+.searchbox{
+  input, button, .input-group-addon:first-child{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background: transparent;
+  }
+  input[name=query]{
+    border-bottom: 1px solid #ddd;
+
+    &:focus, &:active{
+      box-shadow: none;
+      border-bottom: 1px solid darken(#ddd, 15%);
+    }
+  }
+}
+
+
+
+/*
+
+MOVIE INDEX
+
+ */
+ article.movie{
+  height: 350px;
+  margin-bottom: 25px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}

@@ -1,0 +1,32 @@
+<header class="intro-header container-fluid">
+  <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+          <div class="site-heading">
+              <h1>MOVIE <strong>TRIVIA</strong></h1>
+              <hr class="small">
+              <h2 class="subheading">A movie trivia game developed with Ruby's Sinatra Framework for Ironhack</h2>
+          </div>
+      </div>
+  </div>
+</header>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3 searchbox">
+      <div class="row">
+        <form action="/movies/" method="POST" role="form">
+          <div class="input-group">
+            <span class="input-group-addon">I want movies with... </span>
+            <input type="text" class="form-control" name="query" id="search1" placeholder="Ex: Se7en, George Clooney...">
+            <span class="input-group-btn">
+              <button type="submit" class="btn btn-custom">
+                <span class="fa fa-search"></span>
+              </button>
+            </span>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+

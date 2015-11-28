@@ -1,0 +1,129 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One|Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic);
+/*
+
+GENERAL STYLES
+
+*/
+body {
+  font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 20px;
+  color: #404040;
+  padding-top: 125px; }
+
+p {
+  font-size: 18px;
+  line-height: 35px;
+  font-weight: 300; }
+
+a {
+  color: #404040; }
+  a:hover, a:focus {
+    color: #0085a1; }
+
+/*
+
+NAVBAR
+
+ */
+.navbar-brand {
+  padding: 25px; }
+  .navbar-brand img {
+    height: 50px; }
+
+nav.navbar {
+  min-height: 100px;
+  border-bottom: 1px solid #dddddd;
+  background: white; }
+nav.affix {
+  background-color: white;
+  border-bottom: 2px solid #d9d9d9; }
+  nav.affix .nav li a {
+    color: rgba(64, 64, 64, 0.8) !important; }
+
+nav .nav li a {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: #fff;
+  padding: 20px; }
+  nav .nav li a:focus, nav .nav li a:hover {
+    color: rgba(255, 255, 255, 0.8);
+    background-color: transparent; }
+
+/*
+
+APP FOOTER
+
+ */
+footer.container {
+  margin-top: 150px;
+  padding: 50px 0;
+  border-top: 1px solid #dddddd; }
+  footer.container p {
+    letter-spacing: 3.5px;
+    font-size: 20px; }
+
+/*
+
+BUTTONS
+
+*/
+.custom-btn {
+  color: black;
+  border: none;
+  border-color: transparent;
+  background: transparent; }
+  .custom-btn:hover, .custom-btn:focus {
+    text-decoration: underline; }
+
+/*
+
+INDEX
+
+ */
+header.intro-header {
+  min-height: 350px;
+  margin-bottom: 50px; }
+  header.intro-header .site-heading {
+    padding: 50px; }
+    header.intro-header .site-heading h1 {
+      font-family: Lato, sans-serif;
+      font-weight: 200;
+      text-align: center;
+      font-size: 150px; }
+      @media (max-width: 768px) {
+        header.intro-header .site-heading h1 {
+          font-size: 30px; } }
+      header.intro-header .site-heading h1 strong {
+        font-weight: bold; }
+    header.intro-header .site-heading h2.subheading {
+      font-family: Lato, sans-serif;
+      font-weight: 200;
+      text-align: center; }
+
+.searchbox input, .searchbox button, .searchbox .input-group-addon:first-child {
+  border: none;
+  outline: none;
+  box-shadow: none;
+  background: transparent; }
+.searchbox input[name=query] {
+  border-bottom: 1px solid #ddd; }
+  .searchbox input[name=query]:focus, .searchbox input[name=query]:active {
+    box-shadow: none;
+    border-bottom: 1px solid #b7b7b7; }
+
+/*
+
+MOVIE INDEX
+
+ */
+article.movie {
+  height: 350px;
+  margin-bottom: 25px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer; }
+
+/*# sourceMappingURL=custom.css.map */
